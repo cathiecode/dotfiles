@@ -1,0 +1,26 @@
+[global_config]
+  scroll_tabbar = True
+  title_transmit_fg_color = "#241f31"
+  title_transmit_bg_color = "#f390b2"
+  title_inactive_bg_color = "#f6f5f4"
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#ffffff"
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Unifont Medium 12
+    foreground_color = "#000000"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#fbf1c7:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#7c6f64:#928374:#9d0006:#79740e:#b57614:#076678:#8f3f71:#427b58:#3c3836"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
